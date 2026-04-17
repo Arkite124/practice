@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+# gpt가 짜준 subplot
 x = np.linspace(-30, 30)
 
 # Subplot 1
