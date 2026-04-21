@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헬로우</title>
+    <style>
+        h2 {
+            color: antiquewhite;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style="background-color: #121;">
+    <h1 style="color: aqua; font-size: 50px;">사람이니이다</h1>
+    <h2 class="people">사람</h2>
+    <ul style="color: aqua; padding-left:11px; list-style: star;">
+        <li style="color: red;">people</li>
+        <li style="color: skyblue;">person</li>
+        <li style="color: aliceblue;">구리구리</li>
+    </ul>
+    <p style="color: aqua;">사심</p>
+    <p style="color: rgb(255, 0, 255); font-weight: 400; font-size:20px">전통적인 한국 정식은 밥, 국, 김치와 함께 나오는 많은 반찬들로 이루어 집니다<br/> 
+        <b>한국 요리</b>는 주로 쌀을 주식으로 하며, <br/>
+        반찬은 참기름, 된장, 소금, 간장, 마늘, 생강, 고추장 등의 양념으로 맛을 냅니다.
+    </p>
+    <img src="./gochujang.jpg" alt="고추장" width="500px">
+    <img src="./daenjang.jpg" alt="된장" width="500px">
+</body>
+<script>
+    let people=document.getElementsByClassName(people);
+    people.addEventListener("click",()=>{
+        people.style.color="red"
+    })
+</script>
+</html>
