@@ -10,34 +10,25 @@
 ## 📝 자동 기록
 
 <!-- AUTO-START -->
-## 📅 2026-04-21 16:04:32
-- 📝 day_7 quiz
+## 📅 2026-04-22 17:07:06
+- 📝 day_8 html,css
 
 ### 🐍 변경된 Python 파일
-A	day7/pandas/pandas2.py
-A	day7/quiz.py
+A	day8/Flask/main.py
 
 ### 🔍 Python 변경 내용
-diff --git a/day7/pandas/pandas2.py b/day7/pandas/pandas2.py
+diff --git a/day8/Flask/main.py b/day8/Flask/main.py
 new file mode 100644
-index 0000000..b85e874
+index 0000000..2bf1a55
 --- /dev/null
-+++ b/day7/pandas/pandas2.py
-@@ -0,0 +1,43 @@
-+import pandas as pd
-+import matplotlib.pyplot as plt
-+import numpy as np
-+path = 'https://github.com/dongupak/DataML/raw/main/csv/'
++++ b/day8/Flask/main.py
+@@ -0,0 +1,13 @@
++from flask import Flask
++app=Flask(__name__)
++
++@app.route("/")
 ```diff
-diff --git a/day7/pandas/pandas2.py b/day7/pandas/pandas2.py
+diff --git a/day8/Flask/main.py b/day8/Flask/main.py
 new file mode 100644
-index 0000000..b85e874
---- /dev/null
-+++ b/day7/pandas/pandas2.py
-@@ -0,0 +1,43 @@
-+import pandas as pd
-+import matplotlib.pyplot as plt
-+import numpy as np
-+path = 'https://github.com/dongupak/DataML/raw/main/csv/'
 ```
 <!-- AUTO-END -->
