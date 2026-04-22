@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 신청</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            background-repeat: no-repeat;
+        }
+        h1{
+            color:blue;
+            font-size: 50px;
+        }
+        #submits{
+            border: solid purple 2px;
+            border-radius: 2px;
+            background-image:url("book2.jpg");
+            color:blue;
+            padding: 3px;
+        }
+        .font1{
+            color:blueviolet;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>도서 신청</h1>
+    <p class="font1">안내 드리는 사항에 따라 도서 신청 해주세요.</p>
+    <img src="./book.jpg" alt="책">
+    <div id="submits" style="width: 300px;">
+    <form>
+        이름: <input type="text" id="book"/><br/>
+        비밀번호: <input type="password"/><br/>
+        도서종류: <input type="radio" name="genre" checked>소설
+        <input type="radio" name="genre">비소설<br/>
+        <button>신청하기</button>
+    </form>
+    </div>
+    <a href="https://www.nl.go.kr">도서관 홈페이지</a>
+</body>
+</html>
